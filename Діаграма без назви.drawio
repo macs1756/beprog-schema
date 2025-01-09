@@ -19,17 +19,43 @@
         <mxCell id="uTFoMUdclXn3XAftul-3-3" value="/deep-links GET якщо він створений отримав якщо ні створився і отримав" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="130" width="130" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="uTFoMUdclXn3XAftul-3-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uTFoMUdclXn3XAftul-3-6" target="uTFoMUdclXn3XAftul-3-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="uTFoMUdclXn3XAftul-3-6" value="установив програму " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uTFoMUdclXn3XAftul-3-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uTFoMUdclXn3XAftul-3-8" target="uTFoMUdclXn3XAftul-3-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uTFoMUdclXn3XAftul-3-8" value="отримую deepId від sdk " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="671" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uTFoMUdclXn3XAftul-3-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uTFoMUdclXn3XAftul-3-9" target="uTFoMUdclXn3XAftul-3-6">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="uTFoMUdclXn3XAftul-3-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uTFoMUdclXn3XAftul-3-9" target="uTFoMUdclXn3XAftul-3-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="572" y="240" />
+              <mxPoint x="670" y="240" />
+              <mxPoint x="670" y="230" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="uTFoMUdclXn3XAftul-3-9" value="deepID id лінка в базі" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="353.5" y="10" width="120" height="60" as="geometry" />
+        <mxCell id="uTFoMUdclXn3XAftul-3-9" value="deepLinkId це id лінка в базі" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uTFoMUdclXn3XAftul-3-12" value="оновлюю поле deepLinkId для сутності user" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="671" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uTFoMUdclXn3XAftul-3-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uTFoMUdclXn3XAftul-3-14" target="uTFoMUdclXn3XAftul-3-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="811" y="20" />
+              <mxPoint x="811" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTFoMUdclXn3XAftul-3-14" value="закодована інформація в deeplink- whoInvated,deepLinkId" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="346" width="136" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
