@@ -43,6 +43,9 @@
         <mxCell id="uTFoMUdclXn3XAftul-3-9" value="deepLinkId це id лінка в базі" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="60" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="uTFoMUdclXn3XAftul-3-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uTFoMUdclXn3XAftul-3-12" target="uTFoMUdclXn3XAftul-3-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="uTFoMUdclXn3XAftul-3-12" value="оновлюю поле deepLinkId для сутності user" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="671" y="300" width="120" height="60" as="geometry" />
         </mxCell>
@@ -56,6 +59,9 @@
         </mxCell>
         <mxCell id="uTFoMUdclXn3XAftul-3-14" value="закодована інформація в deeplink- whoInvated,deepLinkId" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="346" width="136" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uTFoMUdclXn3XAftul-3-18" value="робимо POST на /deep-links-downloads щоб створити аналітику завантажень location, deepLinkId" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="380" width="120" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
