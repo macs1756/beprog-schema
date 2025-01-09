@@ -72,6 +72,12 @@
         <mxCell id="uTFoMUdclXn3XAftul-3-22" value="приходять вебхуки успішних оплат змінюємо на true тільки якщо юзер має deepLinkId щоб юзер міг отримати знижку навіть якщо він уже колись брав просту підписку" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="10" y="360" width="230" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="uTFoMUdclXn3XAftul-3-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uTFoMUdclXn3XAftul-3-24" target="uTFoMUdclXn3XAftul-3-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uTFoMUdclXn3XAftul-3-24" value="потрібно дати знижку на фронті якщо в сутності юзера deepLinkId не null а також hadPaidSubscriptionReferral = false для ревені кет" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="240" width="210" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
