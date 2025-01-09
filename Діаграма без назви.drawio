@@ -1,9 +1,36 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:134.0) Gecko/20100101 Firefox/134.0" version="26.0.4">
   <diagram name="Сторінка-1" id="tiGgTBYrbzyOw9EDbtSv">
-    <mxGraphModel>
+    <mxGraphModel dx="1194" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="uTFoMUdclXn3XAftul-3-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uTFoMUdclXn3XAftul-3-1" target="uTFoMUdclXn3XAftul-3-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uTFoMUdclXn3XAftul-3-1" value="створив лінк" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uTFoMUdclXn3XAftul-3-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uTFoMUdclXn3XAftul-3-2" target="uTFoMUdclXn3XAftul-3-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uTFoMUdclXn3XAftul-3-2" value="перейшов по лінку" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uTFoMUdclXn3XAftul-3-3" value="/deep-links GET якщо він створений отримав якщо ні створився і отримав" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="130" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uTFoMUdclXn3XAftul-3-6" value="установив програму " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uTFoMUdclXn3XAftul-3-8" value="отримую deepId від sdk " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="671" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uTFoMUdclXn3XAftul-3-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uTFoMUdclXn3XAftul-3-9" target="uTFoMUdclXn3XAftul-3-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uTFoMUdclXn3XAftul-3-9" value="deepID id лінка в базі" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="353.5" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
